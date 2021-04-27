@@ -26,7 +26,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/krzyzanowskim/CryptoSwift.git",
-            .exact(from: "1.3.2")
+            .exact("1.3.2")
         )
     ],
     targets: [
